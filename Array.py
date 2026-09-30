@@ -13,8 +13,6 @@ for coin in arr:
         break 
     print(count )
 
-# -------- Move Zeroes to End (LeetCode 283) --------
-# Two-pointer (in-place, O(n) time, O(1) space)
 class Solution:
     def moveZeroes(self, nums: list[int]) -> None:
         j = 0  # pointer for the next non-zero position
